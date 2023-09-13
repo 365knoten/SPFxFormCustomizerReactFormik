@@ -1,0 +1,53 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/spfx-serve.schema.json",
+  "port": 4321,
+  "https": true,
+  "serveConfigurations": {
+    "default": {
+      "pageUrl": "https://365knoten.sharepoint.com/sites/MyAppPage/_layouts/15/SPListForm.aspx",
+      "formCustomizer": {
+        "componentId": "431c36f6-3901-469f-8af2-3077d6cd39e7",
+        "PageType": 8,
+        "RootFolder": "/sites/MyAppPage/Lists/FormCustomizer",
+        "properties": {
+          "sampleText": "Value"
+        }
+      }
+    },
+    "formixCustomizer_NewForm": {
+      "pageUrl": "https://365knoten.sharepoint.com/sites/MyAppPage/_layouts/15/SPListForm.aspx",
+      "formCustomizer": {
+        "componentId": "431c36f6-3901-469f-8af2-3077d6cd39e7",
+        "PageType": 8,
+        "RootFolder": "/sites/MyAppPage/Lists/FormCustomizer",
+        "properties": {
+          "sampleText": "Value"
+        }
+      }
+    },
+    "formixCustomizer_EditForm": {
+      "pageUrl": "https://365knoten.sharepoint.com/sites/MyAppPage/_layouts/15/SPListForm.aspx",
+      "formCustomizer": {
+        "componentId": "431c36f6-3901-469f-8af2-3077d6cd39e7",
+        "PageType": 6,
+        "RootFolder": "/sites/MyAppPage/Lists/FormCustomizer",
+        "ID": 1,
+        "properties": {
+          "sampleText": "Value"
+        }
+      }
+    },
+    "formixCustomizer_ViewForm": {
+      "pageUrl": "https://365knoten.sharepoint.com/sites/MyAppPage/_layouts/15/SPListForm.aspx",
+      "formCustomizer": {
+        "componentId": "431c36f6-3901-469f-8af2-3077d6cd39e7",
+        "PageType": 4,
+        "RootFolder": "/sites/MyAppPage/Lists/FormCustomizer",
+        "ID": 1,
+        "properties": {
+          "sampleText": "Value"
+        }
+      }
+    }
+  }
+}

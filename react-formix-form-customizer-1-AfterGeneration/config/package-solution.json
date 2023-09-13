@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "react-formix-form-customizer-client-side-solution",
+    "id": "dba16f06-af8e-45f8-b9b7-1d511a0014a5",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.17.4"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "react-formix-form-customizer description"
+      },
+      "longDescription": {
+        "default": "react-formix-form-customizer description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "react-formix-form-customizer Feature",
+        "description": "The feature that activates elements of the react-formix-form-customizer solution.",
+        "id": "5f519acd-df32-4ce4-a488-20eca6172777",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/react-formix-form-customizer.sppkg"
+  }
+}
